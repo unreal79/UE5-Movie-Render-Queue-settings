@@ -1,11 +1,3 @@
-1. Enable plugin "Movie Render Queue" (and later use it to render movies). Restart UE5.
-
-2. Copy "MoviePipelinePrimaryConfig.uasset" file to "Content" dir of your project. 
-
-2.1 Edit it to your liking: primarily "Output Resolution", "Temporal Sample Count". If you chose to enable "Anti Aliasing Method", increase "Spatial Sample Count".
-
-3. Recommended: copy and paste the text (PostProcessVolume) in UE5 editor:
-
 Begin Map
    Begin Level
       Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_0 Archetype="/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume'" ExportPath="/Script/Engine.PostProcessVolume'/Game/MyProject/MyProject.MyProject:PersistentLevel.PostProcessVolume_0'"
