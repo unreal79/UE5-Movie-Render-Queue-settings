@@ -1,6 +1,6 @@
 # UE5-Movie-Render-Queue-settings
 
-These are UE5 Movie Render Queue setting for for ray-tracing.
+These are UE5 Movie Render Queue setting for ray-tracing rendering.
 
 ## How to setup
 
